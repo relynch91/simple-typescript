@@ -7,3 +7,4 @@ export function multiplyByTwo(num: number) {
 }
 
 export interface HelloWorld {}
+
