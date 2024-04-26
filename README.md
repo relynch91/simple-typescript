@@ -1,0 +1,2 @@
+# simple-typescript
+typescript repo
