@@ -17,5 +17,5 @@
     "strictNullChecks": true
   },
   // "include": ["src/**/*"]
-  "include": ["src/*"]
+  "include": ["src/*", "src/typesRefresher/alias.ts", "src/typesRefresher/declarationMerging.ts", "src/typesRefresher/indexMock.tsx", "src/typesRefresher/mapTypes.ts", "src/typesRefresher/multiply.ts", "src/typesRefresher/react.d.ts", "src/typesRefresher/typesWithPackages.ts", "src/typesRefresher/union.ts", "src/typesRefresher/utilityTypes.ts"]
 }
