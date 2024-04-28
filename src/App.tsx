@@ -1,8 +1,8 @@
 import React from "react";
 
 const App = () => {
-    (window as any).hello()
-  return <div>Hello World</div>;
+  //   (window as any).hello();
+  return <div>Its my life</div>;
 };
 
 export default App;
