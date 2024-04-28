@@ -33,8 +33,8 @@ type StarshipNameOnly = Pick<Starship, 'name'>
 type StarshipWithoutName = Omit<Starship, 'name'>
 
 //Exclude<T, U> subtract one union type from another union type
-type A = string | string[] | undefined
-type ANoUndefined = Exclude<A, undefined>
+type AType = string | string[] | undefined
+type ANoUndefined = Exclude<AType, undefined>
 
 type AvailableDrinks = 'coffee' | 'tea' | 'orange juice' | 'lemonade'
 let JohnsDrinks: AvailableDrinks;
