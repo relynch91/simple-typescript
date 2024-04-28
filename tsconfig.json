@@ -16,7 +16,10 @@
     "skipLibCheck": true /* Skip type checking all .d.ts files. */,
     "strictNullChecks": true,
     "noEmit": true,
-    "isolatedModules": true
+    "isolatedModules": true,
+    "sourceMap": true,
+    "moduleResolution": "Node",
+    "resolveJsonModule": true
   },
   "include": ["src/**/*"]
   // "include": [

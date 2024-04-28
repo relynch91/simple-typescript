@@ -1,8 +1,8 @@
 import React from "react";
 
-const App = () => {
-  //   (window as any).hello();
-  return <div>Its my life</div>;
+const App: React.FC = () => {
+  console.log("hello");
+  return <div>Hello A World</div>;
 };
 
 export default App;
